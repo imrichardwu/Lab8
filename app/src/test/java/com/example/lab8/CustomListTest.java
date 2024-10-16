@@ -41,6 +41,6 @@ public class CustomListTest {
     public void hasCityTest(){
         list = MockCityList();
         City city = new City("Ottawa", "ON");
-        assertTrue(list.hasCity(city));
+        assertFalse(list.hasCity(city));
     }
 }
